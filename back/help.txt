@@ -1,0 +1,67 @@
+npm init -y 
+
+--como vai usar typescript. tudo é tipado. precisa instalar essa biblioteca.
+npm install typescript -D -- -D vai criar essa dependencia local. se eu jogar online nao vai junto
+
+@types/express -D --D de desenvolvimento. é so pra usar locamente"
+
+como nao vou usar extensão JS, preciso instalar essa biblioteca pra rodar.
+antes eu usava node app.js
+
+npm install ts-node -D --pra conseguir rodar codigo em TS
+
+--para executar 
+npx ts-node src/server.ts
+
+--PRA RODAR TS PRECISO CONVERTER EM JS. PRECISO TER UM ARQUIVO DE CONF
+npx tsc --init
+
+
+É TIPO O NODEMON::: irá usar o ts-node-dev
+npm install ts-node-dev -D
+
+--executar
+npx ts-node-dev src/server.ts
+
+PRA NAO TER QUE FICAR REPETINDO PRA EXECUTAR O SERVER.
+npx ts-node-dev src/server.ts
+altera o package.json no script/dev
+--pra executar:
+npm run dev
+
+Query parm: parametros que vem na propria rota. más são opicionais.
+usados para filtro, paginação etc
+req.query.search
+/user/1?serach=oi
+
+
+
+
+
+--BIBLIOTECA PRA TRABALHAR COM BANCO
+KNEX.JS
+npm install knex
+npm install sqlite3
+
+
+MIGRATION: HISTORICO DO BANCO DE DADOS
+
+knexfile.ts obrigatorio pra gerar
+
+--GERAR AS TABELAS. APÓS CRIAR AS MIGRATES
+npx knex migrate:latest --knexfile knexfile.ts
+
+CTRL + SHIFT + P        'OPEN DATABASE' DO SQLITE
+
+
+--QUANDO ALETRAR O SCRIPT NO PACKAGE json
+coloca antes o npm run NOMEDOSCRIPT
+
+
+Atalhos no vscode:
+Ctrl + Shift + P
+keyboard Shortcuts
+
+
+
+npm install cors

@@ -1,0 +1,22 @@
+1-npm install -g expo-cli --necessario pra trabalhar com mobile
+2-expo init mobile
+3-npm start
+--Se der erro no 'npm start' então roda o 'npm cache clean --force' e depois o 'npm install'
+
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+--DEU ERRO NA INSTALACAO. RODEI O 'npm install' e funcionou.
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack
+
+expo install react-native-maps
+expo install expo-constants
+
+expo install react-native-svg "o native nao entende svg. precisa desse pacote pra ler os vetores"
+
+npm install axios
+
+expo install expo-location
+
+expo install expo-mail-composer

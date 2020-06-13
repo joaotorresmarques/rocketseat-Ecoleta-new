@@ -1,0 +1,16 @@
+no typescrip pra funcionar corretamente atalhos no teclado, tipo div.classe>li*5
+Ctrl + shift + p Preferences: Open Settings
+
+
+JSX - escrever HTML no javascript
+npm install react-icons
+npm install react-router-dom
+
+leafeat - tipo google maps, agora free
+react-lealfeat
+npm install leaflet react-leaflet
+
+requisição para a API do node
+AXIOS
+
+npm start
